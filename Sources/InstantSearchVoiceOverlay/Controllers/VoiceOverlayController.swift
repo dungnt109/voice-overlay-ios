@@ -1,4 +1,4 @@
-//
+///
 //  VoiceOverlayController.swift
 //  VoiceOverlay
 //
@@ -79,6 +79,7 @@ public typealias RecordableHandler = () -> Recordable
     permissionViewController.permissionControllers = permissionControllers.filter { $0.status == .undetermined }
     permissionViewController.constants = settings.layout.permissionScreen
     DispatchQueue.main.async {
+      self.permissionViewController.modalPresentationStyle = .fullScreen
       view.present(self.permissionViewController, animated: true)
     }
   }
@@ -86,6 +87,7 @@ public typealias RecordableHandler = () -> Recordable
   fileprivate func showNoPermissionScreen(_ view: UIViewController) {
     noPermissionViewController.constants = settings.layout.noPermissionScreen
     DispatchQueue.main.async {
+      self.noPermissionViewController.modalPresentationStyle = .fullScreen
       view.present(self.noPermissionViewController, animated: true)
     }
   }
@@ -110,6 +112,7 @@ public typealias RecordableHandler = () -> Recordable
     
     inputViewController.modalPresentationStyle = .overCurrentContext
     DispatchQueue.main.async {
+      inputViewController.modalPresentationStyle = .fullScreen
       view.present(inputViewController, animated: true)
     }
   }
