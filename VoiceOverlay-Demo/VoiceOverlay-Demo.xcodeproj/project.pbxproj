@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF4C4FCD25EED2D600D9B530 /* InstantSearchVoiceOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = AF4C4FCC25EED2D600D9B530 /* InstantSearchVoiceOverlay */; };
+		40FAB2A52D60F56300642B48 /* InstantSearchVoiceOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = 40FAB2A42D60F56300642B48 /* InstantSearchVoiceOverlay */; };
 		E27D296A20E0F2C700B83D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D296920E0F2C700B83D4C /* AppDelegate.swift */; };
 		E27D296C20E0F2C700B83D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D296B20E0F2C700B83D4C /* ViewController.swift */; };
 		E27D296F20E0F2C700B83D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27D296D20E0F2C700B83D4C /* Main.storyboard */; };
@@ -30,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4C4FCD25EED2D600D9B530 /* InstantSearchVoiceOverlay in Frameworks */,
+				40FAB2A52D60F56300642B48 /* InstantSearchVoiceOverlay in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			);
 			name = "VoiceOverlay-Demo";
 			packageProductDependencies = (
-				AF4C4FCC25EED2D600D9B530 /* InstantSearchVoiceOverlay */,
+				40FAB2A42D60F56300642B48 /* InstantSearchVoiceOverlay */,
 			);
 			productName = "VoiceOverlay-Demo";
 			productReference = E27D296620E0F2C700B83D4C /* VoiceOverlay-Demo.app */;
@@ -115,7 +115,7 @@
 			);
 			mainGroup = E27D295D20E0F2C700B83D4C;
 			packageReferences = (
-				AF4C4FCB25EED2D600D9B530 /* XCRemoteSwiftPackageReference "voice-overlay-ios" */,
+				40FAB2A32D60F56300642B48 /* XCLocalSwiftPackageReference ".." */,
 			);
 			productRefGroup = E27D296720E0F2C700B83D4C /* Products */;
 			projectDirPath = "";
@@ -292,7 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5RDFJYUV23;
 				INFOPLIST_FILE = "VoiceOverlay-Demo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5RDFJYUV23;
 				INFOPLIST_FILE = "VoiceOverlay-Demo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,21 +346,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		AF4C4FCB25EED2D600D9B530 /* XCRemoteSwiftPackageReference "voice-overlay-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "file:///Users/vladislavfitc/Workspace/voice-overlay-ios";
-			requirement = {
-				branch = feat/revamp;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		40FAB2A32D60F56300642B48 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AF4C4FCC25EED2D600D9B530 /* InstantSearchVoiceOverlay */ = {
+		40FAB2A42D60F56300642B48 /* InstantSearchVoiceOverlay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AF4C4FCB25EED2D600D9B530 /* XCRemoteSwiftPackageReference "voice-overlay-ios" */;
 			productName = InstantSearchVoiceOverlay;
 		};
 /* End XCSwiftPackageProductDependency section */
