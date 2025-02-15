@@ -31,7 +31,7 @@ public typealias RecordableHandler = () -> Recordable
   
   public override convenience init() {
     self.init(speechControllerHandler: { SpeechController() },
-              permissionControllers: [MicrophonePermissionController.shared, SpeechRecognitionPermissionController.shared])
+              permissionControllers: [SpeechRecognitionPermissionController.shared])
   }
   
   public init(speechControllerHandler: @escaping RecordableHandler,
