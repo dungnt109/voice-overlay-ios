@@ -44,6 +44,11 @@ class PermissionViewController: UIViewController {
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(self.closeButtonTapped(_:)))
         closeView.addGestureRecognizer(tap)
+
+        closeView.isHidden = true
+        rejectMicrophoneAccessButton.isHidden = true 
+
+
     }
     
     @objc func allowMicrophoneTapped() {
