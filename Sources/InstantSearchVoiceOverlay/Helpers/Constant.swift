@@ -64,7 +64,7 @@ public class PermissionScreenConstants {
   public var title = "You can use voice search to find products"
   
   /// Subtitle shown at the top of the screen
-  public var subtitle = "May we access your device's microphone and Speech Recognition to enable voice search?"
+  public var subtitle = "May we access your device's Speech Recognition to enable voice search?"
   
   /// Text on the button to allow microphone access
   public var allowText = "Next"
@@ -91,7 +91,7 @@ public class NoPermissionScreenConstants {
   public var title = "The app doesn't have permissions"
   
   /// Subtitle shown at the top of the screen
-  public var subtitle = "In order to enable voice search, you need to enable it in your setting's app."
+  public var subtitle = "In order to enable voice search, you need to enable Speech Recognition in your setting's app."
   
   /// Text on the button to give permission
   public var permissionEnableText = "Open Settings"
