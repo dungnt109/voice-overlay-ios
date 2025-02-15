@@ -67,7 +67,7 @@ public class PermissionScreenConstants {
   public var subtitle = "May we access your device's microphone to enable voice search?"
   
   /// Text on the button to allow microphone access
-  public var allowText = "Allow microphone access"
+  public var allowText = "Next"
   
   /// Text on the button to reject microphone access
   public var rejectText = "No"
