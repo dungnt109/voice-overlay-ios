@@ -76,7 +76,7 @@ public class PermissionScreenConstants {
   public var textColor: UIColor = .white
   
   /// Background color of the view
-  public var backgroundColor: UIColor = UIColor(red: 50/255, green: 50/255, blue: 50/255, alpha: 0.95)
+  public var backgroundColor: UIColor = UIColor(red: 50/255, green: 50/255, blue: 50/255, alpha: 1)
   
   /// Start gradient color for the permission button
   public var startGradientColor = UIColor(red: 73/255, green: 171/255, blue: 248/255, alpha: 1)
@@ -103,7 +103,7 @@ public class NoPermissionScreenConstants {
   public var textColor: UIColor = .white
   
   /// Background color of the view
-  public var backgroundColor: UIColor = UIColor(red: 50/255, green: 50/255, blue: 50/255, alpha: 0.95)
+  public var backgroundColor: UIColor = UIColor(red: 50/255, green: 50/255, blue: 50/255, alpha: 1)
   
   /// Start gradient color for the permission button
   public var startGradientColor = UIColor(red: 27/255, green: 70/255, blue: 151/255, alpha: 1)
@@ -148,7 +148,7 @@ public class InputScreenConstants {
   public var textColor: UIColor = .white
   
   /// Background color of the view
-  public var backgroundColor: UIColor = UIColor(red: 50/255, green: 50/255, blue: 50/255, alpha: 0.95)
+  public var backgroundColor: UIColor = UIColor(red: 50/255, green: 50/255, blue: 50/255, alpha: 1)
 }
 
 public class ResultScreenConstants {
