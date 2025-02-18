@@ -37,7 +37,13 @@ public typealias RecordableHandler = () -> Recordable
   public init(speechControllerHandler: @escaping RecordableHandler,
               permissionControllers: [PermissionController] = []) {
     self.recordableHandler = speechControllerHandler
-    self.permissionControllers = permissionControllers
+
+    if permissionControllers.count == 0 {
+          self.permissionControllers = [ SpeechRecognitionPermissionController.shared]
+    } else {
+          self.permissionControllers = permissionControllers
+    }
+
     super.init()
   }
 
