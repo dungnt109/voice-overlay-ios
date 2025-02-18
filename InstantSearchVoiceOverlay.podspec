@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
     s.module_name      = 'InstantSearchVoiceOverlay'
     s.version          = "1.2.0"
     s.summary          = "A beautiful voice overlay widget that records the user's voice input"
-    s.homepage         = "https://github.com/algolia/voice-overlay-ios"
+    s.homepage         = "https://github.com/dungnt109/voice-overlay-ios"
     s.license          = { type: 'MIT', file: 'LICENSE.md' }
     s.author           = { "Algolia" => "contact@algolia.com" }
-    s.source           = { git: "https://github.com/algolia/voice-overlay-ios.git", tag: s.version.to_s }
+    s.source           = { git: "https://github.com/dungnt109/voice-overlay-ios.git", tag: s.version.to_s }
     s.social_media_url = 'https://twitter.com/algolia'
     s.platforms = { :ios => "10.0" }
     s.requires_arc = true
